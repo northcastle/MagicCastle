@@ -4,8 +4,14 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "Magic Castle",
   description: "The Site For Technology & Life",
+
   outDir:'./docs',
   base:'/MagicCastle/docs/',
+
+  head: [
+    ['link', { rel: 'icon', href: '/castle.png' }]
+  ],
+
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
