@@ -13,6 +13,9 @@ export default defineConfig({
     ['link', { rel: 'icon', href: '/MagicCastle/docs/castle.png' }]
   ],
 
+  // 关闭主题切换，只使用亮色主题
+  appearance:false,
+
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
 
@@ -26,6 +29,7 @@ export default defineConfig({
       // { text: 'Examples', link: '/markdown-examples' }
     ],
 
+    
     // 切换黑白主题的tip文案
     lightModeSwitchTitle:'切换到明亮模式',
     darkModeSwitchTitle:'切换到护眼模式',
