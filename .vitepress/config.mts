@@ -4,8 +4,8 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "Magic Castle",
   description: "The Site For Technology & Life",
-  outDir:'./dist',
-  base:'/MagicCastle/dist/',
+  outDir:'./docs',
+  base:'/MagicCastle/docs/',
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
