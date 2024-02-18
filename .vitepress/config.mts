@@ -39,6 +39,11 @@ export default defineConfig({
 
     socialLinks: [
       // { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
-    ]
+    ],
+
+    footer:{
+      message:'',
+      copyright:'版权所有 ©2024 northcastle'
+    }
   }
 })
