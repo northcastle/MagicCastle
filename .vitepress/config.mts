@@ -14,10 +14,18 @@ export default defineConfig({
 
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
+
+
+    siteTitle:'Magic Castle',
+    logo:'/castle.png',
+
     nav: [
-      { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' }
+      // { text: 'Home', link: '/' },
+      // { text: 'Examples', link: '/markdown-examples' }
     ],
+
+    lightModeSwitchTitle:'切换到明亮模式',
+    darkModeSwitchTitle:'切换到护眼模式',
 
     sidebar: [
       {
@@ -30,7 +38,7 @@ export default defineConfig({
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+      // { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
     ]
   }
 })
