@@ -5,6 +5,7 @@ export default defineConfig({
   title: "Magic Castle",
   description: "The Site For Technology & Life",
   outDir:'./dist',
+  base:'/MagicCastle/dist/',
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
