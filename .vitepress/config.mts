@@ -9,7 +9,7 @@ export default defineConfig({
   base:'/MagicCastle/docs/',
 
   head: [
-    ['link', { rel: 'icon', href: '/castle.png' }]
+    ['link', { rel: 'icon', href: '/MagicCastle/docs/castle.png' }]
   ],
 
   themeConfig: {
