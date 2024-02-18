@@ -14,7 +14,7 @@ export default defineConfig({
   ],
 
   // 关闭主题切换，只使用亮色主题
-  appearance:false,
+  appearance:true,
 
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
