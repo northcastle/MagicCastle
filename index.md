@@ -46,6 +46,39 @@ features:
 
 ---
 
+<br/>
+
+
+
+
+<script setup>
+import { VPTeamMembers } from 'vitepress/theme'
+
+const members = [
+  {
+    avatar: '/MagicCastle/docs/nailiangluwan.jpg',
+    name: 'NorthCastle',
+    title: 'Creator',
+
+    // links: [
+    //   { icon: 'github', link: 'https://github.com/yyx990803' },
+    //   { icon: 'twitter', link: 'https://twitter.com/youyuxi' }
+    // ]
+  },
+  {
+    avatar: '/MagicCastle/docs/nailiangluwan.jpg',
+    name: 'NorthCastle',
+    title: 'Developer',
+  }
+]
+</script>
+
+# My Team
+
+Say hello to my awesome team.
+
+<VPTeamMembers size="small" :members="members" />
+
 
 
 <style module>
