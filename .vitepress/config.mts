@@ -55,6 +55,11 @@ export default defineConfig({
     footer:{
       message:'',
       copyright:'版权所有 ©2024 northcastle'
+    },
+
+    // 导航条中的搜索框
+    search: {
+      provider: 'local'
     }
   }
 })
