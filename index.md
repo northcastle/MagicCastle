@@ -25,18 +25,18 @@ features:
       src: /java.svg
     link: /
     linkText: java技术支持
-  - title: Vue
-    details: Vue相关的技术积累
-    icon:
-      src: /Vue.svg
-    link: https://vuejs.org
-    linkText: Vue官方文档
   - title: JavaScript
     details: JavaScript 相关的语法&常用的工具方法
     icon:
       src: /javascript.svg
     link: /
     linkText: JavaScript技术支持
+  - title: Vue
+    details: Vue相关的技术积累
+    icon:
+      src: /Vue.svg
+    link: https://vuejs.org
+    linkText: Vue官方文档
   - title: 古诗词
     details: 唐诗、宋词、古文
     icon:
