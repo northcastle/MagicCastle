@@ -7,27 +7,46 @@ hero:
   text: "The Site For Technology & Life"
   tagline: My great project For Docs
   image:
-    # src: /homeimage01.jpg
-    # src: /vitepress-logo-large.webp
     src: /homeimage02.png
     alt: 一张图片
 
-  # actions:
-  #   - theme: brand
-  #     text: Markdown Examples
-  #     link: /markdown-examples
-  #   - theme: alt
-  #     text: API Examples
-  #     link: /api-examples
+  actions:
+    - theme: brand
+      text: 扬帆⚡️起航
+      link: /
+    - theme: alt
+      text: 乘风🌊破浪
+      link: /
 
-# features:
-#   - title: Feature A
-#     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-#   - title: Feature B
-#     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-#   - title: Feature C
-#     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+features:
+  - title: Java
+    details: Java常用的工具类&工具方法
+    icon:
+      src: /java.svg
+    link: /
+    linkText: java技术支持
+  - title: Vue
+    details: Vue相关的技术积累
+    icon:
+      src: /Vue.svg
+    link: https://vuejs.org
+    linkText: Vue官方文档
+  - title: JavaScript
+    details: JavaScript 相关的语法&常用的工具方法
+    icon:
+      src: /javascript.svg
+    link: /
+    linkText: JavaScript技术支持
+  - title: 古诗词
+    details: 唐诗、宋词、古文
+    icon:
+      src: /gushici.svg
+    link: /
+    linkText: 阅读一下
+
 ---
+
+
 
 <style module>
 
