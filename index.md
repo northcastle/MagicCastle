@@ -2,6 +2,8 @@
 # https://vitepress.dev/reference/default-theme-home-page
 layout: home
 
+title: Magic Castle
+
 hero:
   name: "Magic Castle"
   text: "The Site For Technology & Life"
