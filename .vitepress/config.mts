@@ -61,7 +61,8 @@ export default defineConfig({
           text:'Java',
           items:[
             {text:'概述',link:'/sources/java/'},
-            {text:'字符串&十六进制互转',link:'/sources/java/stringhex'}
+            {text:'字符串&十六进制互转',link:'/sources/java/stringhex'},
+            {text:'AES 加密',link:'/sources/java/aes'}
           ]
         }
       ]
