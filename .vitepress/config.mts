@@ -16,6 +16,9 @@ export default defineConfig({
   // 关闭主题切换，只使用亮色主题
   appearance:true,
 
+  // 启用最后更新的时间戳
+  lastUpdated: true,
+
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
 
