@@ -24,6 +24,11 @@ title: AES 加密工具类
 
 ## 完整的类文件
 下面是完整的类文件的内容
+:::tip 注意
+ 在实际使用下面的类文件时，请把 密钥【KEY】 和 向量【IV】 两个属性替换为自己的。<br />
+ 且两个属性的字符串长度必须保证为16个字符！
+:::
+
 ```java
 import org.apache.commons.codec.binary.Base64;
 
