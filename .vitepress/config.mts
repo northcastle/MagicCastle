@@ -88,6 +88,15 @@ export default defineConfig({
     // 当链接是外部链接的时候，展示一个小箭头
     externalLinkIcon:true,
 
+    // 显示上次更新的时间文案
+    lastUpdated: {
+      text: '最后更新于 ：',
+      formatOptions: {
+        dateStyle: 'full',
+        timeStyle: 'medium'
+      }
+    },
+
     // 上下篇的文案
     docFooter: {
       prev: '上一篇',
