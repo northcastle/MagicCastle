@@ -23,6 +23,11 @@ export default defineConfig({
     siteTitle:'Magic Castle',
     logo:'/castle.png',
 
+    // 导航条中的搜索框
+    search: {
+      provider: 'local'
+    },
+
     // 导航条的链接条目
     nav: [
       // { text: 'Home', link: '/' },
@@ -40,26 +45,49 @@ export default defineConfig({
     ],
 
     // 侧边栏
-    sidebar: [
-      {
-        text: 'Examples',
-        items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
-        ]
-      }
-    ],
+    // sidebar: [
+    //   {
+    //     text: 'Examples',
+    //     items: [
+    //       { text: 'Markdown Examples', link: '/markdown-examples' },
+    //       { text: 'Runtime API Examples', link: '/api-examples' }
+    //     ]
+    //   }
+    // ],
+    // 多侧边栏的配置
+    sidebar:{
+      '/sources/java/':[
+        {
+          text:'Java',
+          items:[
+            {text:'概述',link:'/sources/java/'},
+            {text:'字符串&十六进制互转',link:'/sources/java/stringhex'}
+          ]
+        }
+      ]
+    },
 
+    // 右侧的文档大纲的层级
+    outline:{
+      level:[1,6],
+      label:'页面导航'
+    },
    
     // 页脚的提示信息 ： 只有侧边栏不存在的时候才会展示，vitepress 就是这么设计的
     footer:{
       message:'',
       copyright:'版权所有 ©2024 northcastle'
     },
+   
+   
 
-    // 导航条中的搜索框
-    search: {
-      provider: 'local'
+    // 当链接是外部链接的时候，展示一个小箭头
+    externalLinkIcon:true,
+
+    // 上下篇的文案
+    docFooter: {
+      prev: '上一篇',
+      next: '下一篇'
     }
   }
 })

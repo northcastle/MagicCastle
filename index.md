@@ -25,7 +25,7 @@ features:
     details: Java常用的工具类&工具方法
     icon:
       src: /java.svg
-    link: /
+    link: /sources/java/
     linkText: java技术支持
   - title: JavaScript
     details: JavaScript 相关的语法&常用的工具方法
