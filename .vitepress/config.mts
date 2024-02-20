@@ -90,5 +90,13 @@ export default defineConfig({
       prev: '上一篇',
       next: '下一篇'
     }
+  },
+
+  // markdown 的配置
+  markdown: {
+    image: {
+      // 默认禁用图片懒加载
+      lazyLoading: true
+    }
   }
 })
