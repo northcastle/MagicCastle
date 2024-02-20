@@ -97,6 +97,12 @@ export default defineConfig({
       }
     },
 
+    // 编辑链接-暂不开放，只是添加上这个元素
+    editLink: {
+      pattern: '',
+      text: '暂未开放编辑'
+    },
+
     // 上下篇的文案
     docFooter: {
       prev: '上一篇',
