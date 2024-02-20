@@ -90,9 +90,9 @@ export default defineConfig({
 
     // 显示上次更新的时间文案
     lastUpdated: {
-      text: '最后更新于 ：',
+      text: '🏠 最后更新于 ',
       formatOptions: {
-        dateStyle: 'full',
+        dateStyle: 'short',
         timeStyle: 'medium'
       }
     },
