@@ -33,7 +33,7 @@ export default defineConfig({
 
     // 导航条的链接条目
     nav: [
-      // { text: 'Home', link: '/' },
+      { text: '首页', link: '/' },
       // { text: 'Examples', link: '/markdown-examples' }
     ],
 
