@@ -21,15 +21,18 @@ title: 古诗文
 
 
 
+
+
 <style module>
     .xuyandiv{
-        border:1px solid red;
-        padding:10px;
-        background-image: url("/gushiwenbj4.png");
-        background-repeat: no-repeat;
-        /* background-size: contain; */
-        background-position: center;
-        /* opacity:0.5; */
+        
+        border-radius:10px;
+        padding-top:5px;
+        padding-right:30px;
+        padding-left:30px;
+        padding-bottom:10px;
+        margin-top:10px;
+        background:linear-gradient(to bottom, #f6f7f8, #f0f0ed);
 
          
     }
