@@ -43,7 +43,7 @@ features:
     details: 唐诗、宋词、古文
     icon:
       src: /gushici.svg
-    link: /
+    link: /sources/poetry/
     linkText: 阅读一下
 
 ---

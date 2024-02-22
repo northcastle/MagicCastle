@@ -69,7 +69,15 @@ export default defineConfig({
             {text:'RSA 加密',link:'/sources/java/rsa'},
           ]
         }
-      ]
+      ],
+    '/sources/poetry/':[
+      {
+        text:'古诗文',
+        items:[
+          {text:'序言',link:'/sources/poetry/'},
+        ]
+      }
+    ],
     },
 
     // 右侧的文档大纲的层级
