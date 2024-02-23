@@ -5,7 +5,7 @@ title: 古诗文
 # 欢迎来到古诗文的绝美世界
 
 
-<div :class="$style.xuyandiv">
+<div :class="isDark ? $style.xuyandivdark : $style.xuyandivwhite">
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;在中华文化的浩瀚海洋中，古诗文犹如一颗颗璀璨的明珠，熠熠生辉。它们以独特的韵律、深邃的意境和丰富的情感，跨越了时空的界限，向我们传递着古人的智慧与情感。今天，让我们一同踏上这场探寻古诗文魅力的旅程，感受那些穿越千年的文字所散发出的独特魅力。
 
@@ -20,11 +20,21 @@ title: 古诗文
 </div>
 
 
+<script setup>
+
+    import { useData } from 'vitepress'
+
+    const {isDark  } = useData();
+    
+
+
+
+</script>
 
 
 
 <style module>
-    .xuyandiv{
+    .xuyandivwhite{
         
         border-radius:10px;
         padding-top:5px;
