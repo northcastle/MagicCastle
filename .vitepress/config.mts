@@ -75,6 +75,7 @@ export default defineConfig({
         text:'古诗文',
         items:[
           {text:'序言',link:'/sources/poetry/'},
+          {text:'芦叶满汀州',link:'/sources/poetry/luyemantingzhou'},
         ]
       }
     ],
