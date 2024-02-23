@@ -15,7 +15,7 @@ title: RSA 加密工具类
 
 ## 依赖项准备
 本工具类中使用到了 `commons-codec`依赖，可以在 pom.xml 文件中直接引入
-```yaml
+```xml
 <!-- 工具类中需要的依赖 -->
 <dependency>
     <groupId>commons-codec</groupId>

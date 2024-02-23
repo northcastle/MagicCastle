@@ -67,6 +67,7 @@ export default defineConfig({
             {text:'字符串&十六进制互转',link:'/sources/java/stringhex'},
             {text:'AES 加密',link:'/sources/java/aes'},
             {text:'RSA 加密',link:'/sources/java/rsa'},
+            {text:'HttpClient 网络请求',link:'/sources/java/httpclient'},
           ]
         }
       ],
