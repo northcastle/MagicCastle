@@ -62,12 +62,26 @@ export default defineConfig({
       '/sources/java/':[
         {
           text:'Java',
+         
           items:[
             {text:'概述',link:'/sources/java/'},
-            {text:'字符串&十六进制互转',link:'/sources/java/stringhex'},
-            {text:'AES 加密',link:'/sources/java/aes'},
-            {text:'RSA 加密',link:'/sources/java/rsa'},
-            {text:'HttpClient 网络请求',link:'/sources/java/httpclient'},
+            {
+              text:'常用工具方法',
+              // collapsed: false, // 是否默认折叠 ： true or false
+              items:[
+                {text:'字符串&十六进制互转',link:'/sources/java/tools/stringhex'},
+                {text:'AES 加密',link:'/sources/java/tools/aes'},
+                {text:'RSA 加密',link:'/sources/java/tools/rsa'},
+                {text:'HttpClient 网络请求',link:'/sources/java/tools/httpclient'},
+              ]
+            },
+            {
+              text:'SpringBoot',
+              items:[
+                {text:'banner启动图标',link:'/sources/java/springboot/banner'}
+              ]
+            },
+           
           ]
         }
       ],
