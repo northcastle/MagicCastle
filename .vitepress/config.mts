@@ -70,6 +70,7 @@ export default defineConfig({
               // collapsed: false, // 是否默认折叠 ： true or false
               items:[
                 {text:'字符串&十六进制互转',link:'/sources/java/tools/stringhex'},
+                {text:'MD5 加密',link:'/sources/java/tools/md5'},
                 {text:'AES 加密',link:'/sources/java/tools/aes'},
                 {text:'RSA 加密',link:'/sources/java/tools/rsa'},
                 {text:'HttpClient 网络请求',link:'/sources/java/tools/httpclient'},
