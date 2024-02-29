@@ -73,6 +73,7 @@ export default defineConfig({
                 {text:'MD5 加密',link:'/sources/java/tools/md5'},
                 {text:'AES 加密',link:'/sources/java/tools/aes'},
                 {text:'RSA 加密',link:'/sources/java/tools/rsa'},
+                {text:'文件复制',link:'/sources/java/tools/filecopy'},
                 {text:'HttpClient 网络请求',link:'/sources/java/tools/httpclient'},
               ]
             },
