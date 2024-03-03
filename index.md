@@ -26,13 +26,13 @@ features:
     icon:
       src: /java.svg
     link: /sources/java/
-    linkText: java技术支持
-  - title: JavaScript
-    details: JavaScript 相关的语法&常用的工具方法
+    linkText: java 技术支持
+  - title: HTML+JS+CSS
+    details: 前端“三剑客” 相关的语法&常用的工具方法
     icon:
-      src: /javascript.svg
-    link: /
-    linkText: JavaScript技术支持
+      src: /html.svg
+    link: /sources/htmljscss/
+    linkText: HTML+JS+CSS 技术支持
   - title: Vue
     details: Vue相关的技术积累
     icon:

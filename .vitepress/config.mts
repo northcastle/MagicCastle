@@ -88,6 +88,31 @@ export default defineConfig({
           ]
         }
       ],
+    '/sources/htmljscss':[
+      {
+        text:'前端大世界',
+        items:[
+          {text:'欢迎语',link:'/sources/htmljscss/'},
+          {
+            text:'HTML',
+            items:[
+              {
+                text:'引入css文件',
+                link:'/sources/htmljscss/html/outercss'
+              }
+            ]
+          },
+          {
+            text:'JavaScript',
+            items:[]
+          },
+          {
+            text:'CSS',
+            items:[]
+          }
+        ]
+      }
+    ],
     '/sources/poetry/':[
       {
         text:'古诗文',
