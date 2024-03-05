@@ -96,10 +96,8 @@ export default defineConfig({
           {
             text:'HTML',
             items:[
-              {
-                text:'引入css文件',
-                link:'/sources/htmljscss/html/outercss'
-              }
+              {text:'引入css文件',link:'/sources/htmljscss/html/outercss'},
+              {text:'引入js文件',link:'/sources/htmljscss/html/outerjs'},
             ]
           },
           {
