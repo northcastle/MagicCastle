@@ -33,6 +33,9 @@ projectName
     <!--重点 ：引入外部的css文件 : 此处使用相对路径引入 --> // [!code focus]
     <link rel="stylesheet" type="text/css" href="./css/index.css"> // [!code focus]
 
+
+    <!--重点 ：引入外部的css文件 : 绝对路径 ： 自动拼接 【协议:域名:端口号】 --> // [!code focus]
+    <link rel="stylesheet" type="text/css" href="/css/index.css"> // [!code focus]
 </head>
 <body>
 

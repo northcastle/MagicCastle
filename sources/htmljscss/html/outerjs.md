@@ -35,8 +35,11 @@ projectName
     ... 
     其他的html的内容
 
-    <!-- 导入外部的js文件 --> // [!code focus]
+    <!-- 导入外部的js文件 ： 相对路径--> // [!code focus]
     <script src="./js/index.js" type="text/javascript"></script> // [!code focus]
+    
+    <!-- 导入外部的js文件 ： 绝对路径 ：自动拼接 【协议：域名：端口号】--> // [!code focus]
+    <script src="/js/index.js" type="text/javascript"></script> // [!code focus]
     
 </body>
 </html>
