@@ -107,7 +107,13 @@ export default defineConfig({
           {
             text:'CSS',
             items:[]
-          }
+          },
+          {
+            text:'前端框架化',
+            items:[
+              {text:'npm包管理工具',link:'/sources/htmljscss/framework/npmuse'},
+            ]
+          },
         ]
       }
     ],
