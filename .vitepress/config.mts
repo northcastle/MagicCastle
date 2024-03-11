@@ -113,6 +113,7 @@ export default defineConfig({
             text:'前端框架化',
             items:[
               {text:'npm包管理工具',link:'/sources/htmljscss/framework/npmuse'},
+              {text:'CommonJS导入导出',link:'/sources/htmljscss/framework/commonjsuse'},
             ]
           },
         ]
