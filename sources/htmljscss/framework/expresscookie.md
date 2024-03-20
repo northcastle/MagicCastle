@@ -31,6 +31,8 @@ $ npm install express
 ```
 
 ## 设置cookie
+> `response.cookie(key,value)`
+
 ```js
 const express = require('express')
 const app = express()
@@ -52,4 +54,65 @@ app.get('/setCookie', (req, res) => {
 app.listen(3000)
 ```
 ## 删除cookie
+> `response.clearCookie(key)`
+
+```js
+const express = require('express')
+const app = express()
+
+// 写一个请求，删除cookie
+app.get('/removeCookie',(req,res)=>{
+    // 删除cookie
+    res.clearCookie('cookieA')
+    
+    //...... 其他的逻辑
+
+    // 响应给浏览器端
+    res.send('删除cookie成功')
+})
+
+app.listen(3000)
+```
+
 ## 读取cookie
+
+### 安装 cookie-parser 依赖
+> `cookie-parser` 是一个解析cookie的依赖包
+
+```cmd
+$ npm install cookie-parser
+```
+
+### 读取 cookie
+> 使用中间件后，直接在 request 对象中，就可以获取到cookie了
+
+```js
+const express = require('express')
+
+// 导入读取cookie 的依赖包
+const cookieParser = require('cookie-parser')
+
+const app = express()
+
+// 加载cookie解析的插件
+app.use(cookieParser())
+
+
+// 写一个请求，读取cookie
+app.get('/readCookie',(req,res)=>{
+
+    // 读取cookie
+    let cookies = req.cookies
+    console.log('请求中的cookie ： ',cookies)
+
+    //...... 其他的逻辑
+
+    // 响应给浏览器端
+    res.send('读取cookie成功' + JSON.stringify(cookies))
+})
+
+
+app.listen(3000)
+```
+
+> 至此，在 express 框架中 对 cookie 的基本操作就完成了。
