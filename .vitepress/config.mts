@@ -82,7 +82,8 @@ export default defineConfig({
               items:[
                 {text:'banner启动图标',link:'/sources/java/springboot/banner'},
                 {text:'logback日志配置',link:'/sources/java/springboot/logback'},
-                {text:'Cookie的基本操作',link:'/sources/java/springboot/usecookie'}
+                {text:'Cookie的基本操作',link:'/sources/java/springboot/usecookie'},
+                {text:'Session的基本操作',link:'/sources/java/springboot/usesession'}
               ]
               
             },
