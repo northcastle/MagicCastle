@@ -106,7 +106,9 @@ export default defineConfig({
           },
           {
             text:'JavaScript',
-            items:[]
+            items:[
+              {text:'JWT',link:'/sources/htmljscss/javascript/jwt'},
+            ]
           },
           {
             text:'CSS',
