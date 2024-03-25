@@ -75,6 +75,7 @@ export default defineConfig({
                 {text:'RSA 加密',link:'/sources/java/tools/rsa'},
                 {text:'文件复制',link:'/sources/java/tools/filecopy'},
                 {text:'HttpClient 网络请求',link:'/sources/java/tools/httpclient'},
+                {text:'JWT & token',link:'/sources/java/tools/jwt'},
               ]
             },
             {
