@@ -164,3 +164,21 @@ sass_binary_site = "https://npm.taobao.org/mirrors/node-sass"
 ; HOME = /Users/northcastle
 ; Run `npm config ls -l` to show all defaults.
 ```
+
+### 使用cnpm
+> 当有些依赖使用`npm`下载有问题时，我们也可以使用`cnpm`来安装。<br>
+> npm是node官方的包管理器。cnpm是个中国版的npm，是淘宝定制的 `cnpm` (gzip 压缩支持) 命令行工具代替默认的 `npm`。<br>
+> 当我们下载某些依赖，存在奇怪的异常的时候，就可以使用一下`cnpm`来安装依赖。
+```shell
+# 安装cnpm
+npm install -g cnpm
+
+# 使用cnpm 
+cnpm install xxx
+```
+
+## 清除缓存
+> 以下命令可以清除 npm 的所有缓存。
+```shell
+npm cache clean --force
+```
