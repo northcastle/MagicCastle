@@ -52,3 +52,43 @@ nvm --version
 
 ## MacOS
 本小节介绍一下在`MacOS`上管理不同版本的NodeJS。
+
+> 有一个叫做 `n` 的命令行工具，可以完成该功能
+
+### 安装
+> 直接使用 npm 的方式进行安装即可。
+```shell
+npm install -g n
+```
+### 常用命令介绍
+
+> `查看` 纳入管理的 Node
+
+```shell
+n ls
+```
+> `安装` 指定版本的 Node <br>
+> 注意 ： 此处有目录创建动作，因此需要 `sudo` 提权。
+```shell
+sudo n install <版本号>
+
+#例如
+sudo n install 20.12.0
+```
+> `卸载` 指定版本的 Node
+```shell
+sudo n rm <版本号>
+
+# 例如
+sudo n rm 20.12.0
+```
+> `切换` 到指定版本的 Node(***)
+```shell
+sudo n <回车>
+
+选择目标版本即可
+```
+> 查看 nvm 版本
+```shell
+n --version
+```
