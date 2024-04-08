@@ -109,6 +109,8 @@ export default defineConfig({
             text:'JavaScript',
             items:[
               {text:'JWT',link:'/sources/htmljscss/javascript/jwt'},
+              {text:'CommonJS导入导出',link:'/sources/htmljscss/framework/commonjsuse'},
+              {text:'ES6导入导出',link:'/sources/htmljscss/framework/es6moduleuse'},
             ]
           },
           {
@@ -120,7 +122,6 @@ export default defineConfig({
             items:[
               {text:'npm包管理工具',link:'/sources/htmljscss/framework/npmuse'},
               {text:'NodeJS多版本管理',link:'/sources/htmljscss/framework/nodejsmulti'},
-              {text:'CommonJS导入导出',link:'/sources/htmljscss/framework/commonjsuse'},
               {text:'express操作cookie',link:'/sources/htmljscss/framework/expresscookie'},
               {text:'express操作session',link:'/sources/htmljscss/framework/expresssession'},
             ]
