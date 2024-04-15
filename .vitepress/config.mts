@@ -115,7 +115,9 @@ export default defineConfig({
           },
           {
             text:'CSS',
-            items:[]
+            items:[
+              {text:'空格原样输出',link:'/sources/htmljscss/css/whitespace'},
+            ]
           },
           {
             text:'前端框架化',
