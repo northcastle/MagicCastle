@@ -88,6 +88,17 @@ export default defineConfig({
               ]
               
             },
+            {
+              text:'生态工具',
+              items:[
+                {
+                  text:'maven',
+                  items:[
+                    {text:'配置镜像仓库',link:'/sources/java/shengtaitools/maven/configrepository'}
+                  ]
+                }
+              ]
+            },
            
           ]
         }
