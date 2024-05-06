@@ -17,7 +17,7 @@ title: 配置仓库
 但是国内源的缺点是 ： 有些依赖包不全，还是通过官方源进行下载。<br>
 :::
 
-## 配置案例
+## 配置-依赖库
 > 下面是配置的 `阿里云 的国内镜像源` 和 `国外的默认官方源`。
 
 ```xml
@@ -63,6 +63,38 @@ title: 配置仓库
 </project>
 
 ```
+
+## 配置-maven插件库
+> 下面是配置的 `阿里云 的国内镜像源` 。
+```xml
+
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+ 
+   ......
+   其他的正常配置
+
+     <pluginRepositories>
+
+        <pluginRepository>
+            <id>public</id>
+            <name>aliyunrepo</name>
+            <url>https://maven.aliyun.com/repository/public</url>
+            <releases>
+                <enabled>true</enabled>
+            </releases>
+            <snapshots>
+                <enabled>false</enabled>
+            </snapshots>
+        </pluginRepository>
+
+    </pluginRepositories>
+    
+</project>
+```
+
 
 ## 使用经验
 ```
