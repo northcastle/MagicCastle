@@ -96,6 +96,12 @@ export default defineConfig({
                   items:[
                     {text:'配置镜像仓库',link:'/sources/java/shengtaitools/maven/configrepository'}
                   ]
+                },
+                {
+                  text:'Git',
+                  items:[
+                    {text:'取消版本管理',link:'/sources/java/shengtaitools/git/versioncontrol'}
+                  ]
                 }
               ]
             },
