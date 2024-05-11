@@ -182,7 +182,7 @@ public class ABCController {
 </configuration>
 ```
 ### logback.xsd 文件内容
-```xsd
+```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
    logback.xml schema,
