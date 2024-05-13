@@ -21,19 +21,20 @@ import NavigationItem from './NavigationItem.vue'
 import type {NavigationItemObject} from './NavigationType'
 
 // 导入图片
+import guanwangIcon from '/navigationImages/guanwang.svg'
 import springIcon from '/navigationImages/spring.svg'
 
 // 官网的数据
 const GuanWangList:NavigationItemObject = reactive({
     title:'官网',
     desc:'直接去官网看看是怎么个事儿',
-    iconUrl:'../../navigationImages/guanwang.svg',
+    iconUrl:guanwangIcon,
     itemList:[
-        {nameStr:'SpringBoot 官网',iconUrl:'/navigationImages/spring.svg',linkUrl:'https://spring.io/'},
+        {nameStr:'SpringBoot 官网',iconUrl:springIcon,linkUrl:'https://spring.io/'},
         {nameStr:'SpringBoot 官网2',iconUrl:springIcon,linkUrl:'https://spring.io/'},
-        {nameStr:'SpringBoot 官网3',iconUrl:'/navigationImages/spring.svg',linkUrl:'https://spring.io/'},
-        {nameStr:'SpringBoot 官网4',iconUrl:'/navigationImages/spring.svg',linkUrl:'https://spring.io/'},
-        {nameStr:'SpringBoot 官网5',iconUrl:'/navigationImages/spring.svg',linkUrl:'https://spring.io/'}
+        {nameStr:'SpringBoot 官网3',iconUrl:springIcon,linkUrl:'https://spring.io/'},
+        {nameStr:'SpringBoot 官网4',iconUrl:springIcon,linkUrl:'https://spring.io/'},
+        {nameStr:'SpringBoot 官网5',iconUrl:springIcon,linkUrl:'https://spring.io/'}
     ]
 })
 
