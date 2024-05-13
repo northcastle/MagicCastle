@@ -68,7 +68,7 @@ const navigationItem = defineProps<NavigationItemObject>()
 .navigation-box :deep(.el-card__body){
     padding-left: 10px;
     padding-right: 10px;
-    padding-top: 20px;
+    padding-top: 10px;
     padding-bottom: 20px;
 }
 
@@ -97,6 +97,7 @@ const navigationItem = defineProps<NavigationItemObject>()
     padding: 3px;
     border-radius: 5px;
     margin-left: 20px;
+    margin-top: 10px;
 }
 
 .item-box :hover{

@@ -8,7 +8,7 @@ aside: false
 
 
 <!-- 引入组件，进行渲染数据 -->
-<NavigationItem v-bind="GuanWangList" />
+<NavigationItem v-bind="JavaList" />
 
 
 <script lang="ts" setup>
@@ -24,18 +24,22 @@ import type {NavigationItemObject} from './NavigationType'
 import guanwangIcon from '/navigationImages/guanwang.svg'
 import springIcon from '/navigationImages/spring.svg'
 
-// 官网的数据
-const GuanWangList:NavigationItemObject = reactive({
-    title:'官网',
-    desc:'直接去官网看看是怎么个事儿',
+// Java开发的网站导航
+const JavaList:NavigationItemObject = reactive({
+    title:'Java开发',
+    desc:'直接点进去看看是怎么个事儿',
     iconUrl:guanwangIcon,
     itemList:[
-        {nameStr:'SpringBoot 官网',iconUrl:springIcon,linkUrl:'https://spring.io/'},
-        {nameStr:'SpringBoot 官网2',iconUrl:springIcon,linkUrl:'https://spring.io/'},
-        {nameStr:'SpringBoot 官网3',iconUrl:springIcon,linkUrl:'https://spring.io/'},
-        {nameStr:'SpringBoot 官网4',iconUrl:springIcon,linkUrl:'https://spring.io/'},
-        {nameStr:'SpringBoot 官网5',iconUrl:springIcon,linkUrl:'https://spring.io/'}
-    ]
+        {nameStr:'Java 官网',iconUrl:springIcon,linkUrl:'https://www.oracle.com/cn/java/'},
+        {nameStr:'Maven 官网',iconUrl:springIcon,linkUrl:'https://maven.apache.org/'},
+        {nameStr:'Spring 官网',iconUrl:springIcon,linkUrl:'https://spring.io/'},
+        {nameStr:'Tomcat 官网',iconUrl:springIcon,linkUrl:'https://tomcat.apache.org/'},
+        {nameStr:'Redis 官网',iconUrl:springIcon,linkUrl:'https://redis.io/'},
+        {nameStr:'Nginx 官网',iconUrl:springIcon,linkUrl:'https://nginx.org/'},
+        {nameStr:'Maven 官方仓库',iconUrl:springIcon,linkUrl:'https://spring.io/'},
+        {nameStr:'Maven 阿里仓库',iconUrl:springIcon,linkUrl:'https://spring.io/'},
+       
+    ] 
 })
 
 </script>
