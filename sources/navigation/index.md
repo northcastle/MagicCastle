@@ -11,7 +11,6 @@ aside: false
 <NavigationItem v-bind="GuanWangList" />
 
 
-
 <script lang="ts" setup>
 
 import {reactive} from 'vue'
@@ -27,7 +26,11 @@ const GuanWangList:NavigationItemObject = reactive({
     desc:'直接去官网看看是怎么个事儿',
     iconUrl:'./images/guanwang.svg',
     itemList:[
-        {nameStr:'SpringBoot 官网',iconUrl:'./images/spring.svg',linkUrl:'https://spring.io/'}
+        {nameStr:'SpringBoot 官网',iconUrl:'./images/spring.svg',linkUrl:'https://spring.io/'},
+        {nameStr:'SpringBoot 官网2',iconUrl:'./images/spring.svg',linkUrl:'https://spring.io/'},
+        {nameStr:'SpringBoot 官网3',iconUrl:'./images/spring.svg',linkUrl:'https://spring.io/'},
+        {nameStr:'SpringBoot 官网4',iconUrl:'./images/spring.svg',linkUrl:'https://spring.io/'},
+        {nameStr:'SpringBoot 官网5',iconUrl:'./images/spring.svg',linkUrl:'https://spring.io/'}
     ]
 })
 
