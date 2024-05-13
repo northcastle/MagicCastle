@@ -20,6 +20,9 @@ import NavigationItem from './NavigationItem.vue'
 // 导入类型
 import type {NavigationItemObject} from './NavigationType'
 
+// 导入图片
+import springIcon from '/navigationImages/spring.svg'
+
 // 官网的数据
 const GuanWangList:NavigationItemObject = reactive({
     title:'官网',
@@ -27,7 +30,7 @@ const GuanWangList:NavigationItemObject = reactive({
     iconUrl:'../../navigationImages/guanwang.svg',
     itemList:[
         {nameStr:'SpringBoot 官网',iconUrl:'/navigationImages/spring.svg',linkUrl:'https://spring.io/'},
-        {nameStr:'SpringBoot 官网2',iconUrl:'/navigationImages/spring.svg',linkUrl:'https://spring.io/'},
+        {nameStr:'SpringBoot 官网2',iconUrl:springIcon,linkUrl:'https://spring.io/'},
         {nameStr:'SpringBoot 官网3',iconUrl:'/navigationImages/spring.svg',linkUrl:'https://spring.io/'},
         {nameStr:'SpringBoot 官网4',iconUrl:'/navigationImages/spring.svg',linkUrl:'https://spring.io/'},
         {nameStr:'SpringBoot 官网5',iconUrl:'/navigationImages/spring.svg',linkUrl:'https://spring.io/'}
