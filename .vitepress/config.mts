@@ -1,5 +1,15 @@
 import { defineConfig } from 'vitepress'
 
+// 引入 element-ui-plus : 按需导入-自动导入的方式
+import AutoImport from 'unplugin-auto-import/vite'
+import Components from 'unplugin-vue-components/vite'
+import { ElementPlusResolver } from 'unplugin-vue-components/resolvers'
+
+// 引入 element-ui-plus 的图标
+import Icons from 'unplugin-icons/vite'
+import IconsResolver from 'unplugin-icons/resolver'
+
+
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "Magic Castle",
@@ -204,5 +214,39 @@ export default defineConfig({
       // 默认禁用图片懒加载
       lazyLoading: true
     }
+  },
+
+  // vite 的配置
+  vite:{
+    plugins:[
+      // 按需导入-自动导入 element-ui-plus
+      AutoImport({
+        resolvers: [
+          ElementPlusResolver(),
+
+          // Auto import icon components
+          // 自动导入图标组件
+          IconsResolver({
+            prefix: 'Icon',
+          }),
+        ],
+      }),
+      Components({
+        resolvers: [
+          ElementPlusResolver(),
+          // Auto register icon components
+          // 自动注册图标组件
+          IconsResolver({
+            enabledCollections: ['ep'],
+          }),
+        
+        ],
+      }),
+
+      Icons({
+        autoInstall: true,
+      }),
+
+    ]
   }
 })

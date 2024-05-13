@@ -33,12 +33,12 @@ features:
       src: /html.svg
     link: /sources/htmljscss/
     linkText: HTML+JS+CSS 技术支持
-  - title: Vue
-    details: Vue相关的技术积累
+  - title: Navigation
+    details: 官网&开发时常用的工具网站集合
     icon:
-      src: /Vue.svg
-    link: https://vuejs.org
-    linkText: Vue官方文档
+      src: /siterouter.svg
+    link: /sources/navigation/
+    linkText: 常用网站导航
   - title: 古诗词
     details: 唐诗、宋词、古文
     icon:
@@ -73,6 +73,7 @@ const members = [
     title: 'Developer',
   }
 ]
+
 </script>
 
 # My Team
