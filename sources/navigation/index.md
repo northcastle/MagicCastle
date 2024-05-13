@@ -24,7 +24,7 @@ import type {NavigationItemObject} from './NavigationType'
 const GuanWangList:NavigationItemObject = reactive({
     title:'官网',
     desc:'直接去官网看看是怎么个事儿',
-    iconUrl:'/navigationImages/guanwang.svg',
+    iconUrl:'../../navigationImages/guanwang.svg',
     itemList:[
         {nameStr:'SpringBoot 官网',iconUrl:'/navigationImages/spring.svg',linkUrl:'https://spring.io/'},
         {nameStr:'SpringBoot 官网2',iconUrl:'/navigationImages/spring.svg',linkUrl:'https://spring.io/'},
