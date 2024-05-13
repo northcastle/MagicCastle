@@ -5,10 +5,10 @@
                 <div>
                     <el-row>
                         <el-col :span="1"> <img :src="navigationItem.iconUrl"  /></el-col>
-                        <el-col :span="12"> 
+                        <el-col :span="16"> 
                             <div class="navigation-title">
                                 {{ navigationItem.title }} 
-                                <span style="font-size: 14px;" > -  {{ navigationItem.desc }}</span>
+                                <span style="font-size: 16px;" > -  {{ navigationItem.desc }}</span>
                             </div>
                         </el-col>
                     </el-row>
@@ -61,8 +61,8 @@ const navigationItem = defineProps<NavigationItemObject>()
 
 .navigation-box :deep(.el-card__header){
     padding-left: 10px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 
 .navigation-box :deep(.el-card__body){
@@ -74,11 +74,11 @@ const navigationItem = defineProps<NavigationItemObject>()
 
 
 .navigation-title{
-    
+    font-size: 20px;
     font-weight: bold;
     padding-left: 10px;
     border: 0px solid red;
-
+    
      /* 创建一个水平方向的颜色渐变 */
     background: linear-gradient(120deg, #bd34fe 30%,#5c34fe, #41d1ff);
     /* 将文本透明度设置为0，以便背景渐变可见 */
@@ -92,9 +92,9 @@ const navigationItem = defineProps<NavigationItemObject>()
     display: inline-block;
     border: 1px solid rgb(211, 211, 211);
     width: 200px;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: bold;
-    padding: 3px;
+    padding: 8px;
     border-radius: 5px;
     margin-left: 20px;
     margin-top: 10px;
