@@ -1,5 +1,6 @@
 ---
 title: 网站导航的页面
+layout: home
 lastUpdated: false
 editLink: false
 sidebar: false
@@ -42,6 +43,8 @@ import npmjsIcon from '/navigationImages/npmjs.svg'
 import viteIcon from '/navigationImages/vitelogo.svg'
 import markdownIcon from '/navigationImages/markdown.svg'
 import iconfontIcon from '/navigationImages/iconfont.svg'
+import vueuseIcon from '/navigationImages/vueuse.svg'
+import colorspaceIcon from '/navigationImages/colorspace.svg'
 
 // Java开发的网站导航
 const JavaList:NavigationItemObject = reactive({
@@ -73,6 +76,8 @@ const h5List:NavigationItemObject = reactive({
         {nameStr:'Vite 官网',iconUrl:viteIcon,linkUrl:'https://www.vitejs.net/'},
         {nameStr:'VitePress 官网',iconUrl:markdownIcon,linkUrl:'https://vitepress.dev/'},
         {nameStr:'IconFont 图标',iconUrl:iconfontIcon,linkUrl:'https://www.iconfont.cn/'},
+        {nameStr:'VueUse',iconUrl:vueuseIcon,linkUrl:'https://vueuse.org/'},
+        {nameStr:'Color Space',iconUrl:colorspaceIcon,linkUrl:'https://mycolor.space/'},
     ]
 })
 </script>

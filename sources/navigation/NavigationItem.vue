@@ -4,8 +4,8 @@
             <template #header>
                 <div>
                     <el-row>
-                        <el-col :span="1"> <img :src="navigationItem.iconUrl"  /></el-col>
-                        <el-col :span="16"> 
+                        <el-col :span="1" class="flex-vertical"> <img :src="navigationItem.iconUrl"  /></el-col>
+                        <el-col :span="16" class="flex-vertical"> 
                             <div class="navigation-title">
                                 {{ navigationItem.title }} 
                                 <span style="font-size: 16px;" > -  {{ navigationItem.desc }}</span>
@@ -21,8 +21,8 @@
             <el-scrollbar max-height="200px">
                 <div class="item-box" v-for="item in navigationItem.itemList" @click="jumpToTargetWebsite(item)">
                     <el-row>
-                        <el-col :span="4" style="box-shadow: 0 0 0 0 red;"><img :src="item.iconUrl" /></el-col>
-                        <el-col :span="19" :offset="1" style="box-shadow: 0 0 0 0 red;"> {{ item.nameStr }} </el-col>
+                        <el-col :span="4" style="box-shadow: 0 0 0 0 red;" class="flex-vertical"><img :src="item.iconUrl" /></el-col>
+                        <el-col :span="19" :offset="1" style="box-shadow: 0 0 0 0 red;" class="flex-vertical"> {{ item.nameStr }} </el-col>
                         
                     </el-row>
                     
@@ -106,5 +106,10 @@ const navigationItem = defineProps<NavigationItemObject>()
     box-shadow:0 0 10px 0 #13bef7;
 }
 
+
+.flex-vertical{
+    display: flex;
+    align-items: center;
+}
 
 </style>
