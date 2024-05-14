@@ -23,6 +23,9 @@ import NavigationItem from './NavigationItem.vue'
 // 导入类型
 import type {NavigationItemObject} from './NavigationType'
 
+
+/**** tip : 图标使用 iconfont 的 28 尺寸的 ******/
+
 // 导入图片 - java
 import guanwangIcon from '/navigationImages/guanwang.svg'
 import javaIcon from '/navigationImages/java.svg'
@@ -39,12 +42,16 @@ import qianduanIcon from '/navigationImages/qianduan.svg'
 import vueIcon from '/navigationImages/vue.svg'
 import elementuiIcon from '/navigationImages/elementui.svg'
 import elementuiplusIcon from '/navigationImages/elementuiplus.svg'
+import vantIcon from '/navigationImages/vant.svg'
 import npmjsIcon from '/navigationImages/npmjs.svg'
 import viteIcon from '/navigationImages/vitelogo.svg'
 import markdownIcon from '/navigationImages/markdown.svg'
 import iconfontIcon from '/navigationImages/iconfont.svg'
 import vueuseIcon from '/navigationImages/vueuse.svg'
 import colorspaceIcon from '/navigationImages/colorspace.svg'
+import animateIcon from '/navigationImages/animate.svg'
+import iconarchiveIcon from '/navigationImages/iconarchive.svg'
+import electronIcon from '/navigationImages/electron.svg'
 
 // Java开发的网站导航
 const JavaList:NavigationItemObject = reactive({
@@ -72,12 +79,17 @@ const h5List:NavigationItemObject = reactive({
         {nameStr:'VueJS 官网',iconUrl:vueIcon,linkUrl:'https://cn.vuejs.org/'},
         {nameStr:'Element UI',iconUrl:elementuiIcon,linkUrl:'https://element.eleme.cn/#/zh-CN'},
         {nameStr:'Element UI Plus',iconUrl:elementuiplusIcon,linkUrl:'https://element-plus.org/zh-CN/'},
+        {nameStr:'Vant 官网',iconUrl:vantIcon,linkUrl:'https://vant-ui.github.io/vant/#/zh-CN/home'},
         {nameStr:'NpmJS 网站',iconUrl:npmjsIcon,linkUrl:'https://www.npmjs.com/'},
         {nameStr:'Vite 官网',iconUrl:viteIcon,linkUrl:'https://www.vitejs.net/'},
         {nameStr:'VitePress 官网',iconUrl:markdownIcon,linkUrl:'https://vitepress.dev/'},
         {nameStr:'IconFont 图标',iconUrl:iconfontIcon,linkUrl:'https://www.iconfont.cn/'},
         {nameStr:'VueUse',iconUrl:vueuseIcon,linkUrl:'https://vueuse.org/'},
         {nameStr:'Color Space',iconUrl:colorspaceIcon,linkUrl:'https://mycolor.space/'},
+        {nameStr:'Animate Css',iconUrl:animateIcon,linkUrl:'https://animate.style/'},
+        {nameStr:'Icon Archive',iconUrl:iconarchiveIcon,linkUrl:'https://www.iconarchive.com/'},
+        {nameStr:'Electron',iconUrl:electronIcon,linkUrl:'https://www.electronjs.org/'},
+    
     ]
 })
 </script>
