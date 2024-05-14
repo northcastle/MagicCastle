@@ -7,7 +7,6 @@ sidebar: false
 aside: false
 ---
 
-
 <!-- Java 开发，进行渲染数据 -->
 <NavigationItem v-bind="JavaList" />
 
@@ -46,6 +45,7 @@ import giteeIcon from '/navigationImages/gitee.svg'
 // 导入图片 - 前端
 import qianduanIcon from '/navigationImages/qianduan.svg'
 import vueIcon from '/navigationImages/vue.svg'
+import vuepiniaIcon from '/navigationImages/vuepinia.svg'
 import elementuiIcon from '/navigationImages/elementui.svg'
 import elementuiplusIcon from '/navigationImages/elementuiplus.svg'
 import vantIcon from '/navigationImages/vant.svg'
@@ -93,7 +93,9 @@ const h5List:NavigationItemObject = reactive({
     desc:'不要慌，有问题就去官方文档上扒拉扒拉',
     iconUrl:qianduanIcon,
     itemList:[
-        {nameStr:'VueJS 官网',iconUrl:vueIcon,linkUrl:'https://cn.vuejs.org/'},
+        {nameStr:'VueJS 官网',iconUrl:vueIcon,linkUrl:'https://vuejs.org/'},
+        {nameStr:'Vue Router',iconUrl:vueIcon,linkUrl:'https://router.vuejs.org/'},
+        {nameStr:'Pinia',iconUrl:vuepiniaIcon,linkUrl:'https://pinia.vuejs.org/'},
         {nameStr:'Element UI',iconUrl:elementuiIcon,linkUrl:'https://element.eleme.cn/#/zh-CN'},
         {nameStr:'Element UI Plus',iconUrl:elementuiplusIcon,linkUrl:'https://element-plus.org/zh-CN/'},
         {nameStr:'Vant 官网',iconUrl:vantIcon,linkUrl:'https://vant-ui.github.io/vant/#/zh-CN/home'},
@@ -128,7 +130,9 @@ const toolList:NavigationItemObject = reactive({
 
 <style module>
 
-
+.navigation-header{
+    border:1px solid red;
+}
 
 
 </style>

@@ -18,7 +18,7 @@
                 </div>
             </template>
            
-            <el-scrollbar max-height="200px">
+            <el-scrollbar max-height="300px">
                 <div class="item-box" v-for="item in navigationItem.itemList" @click="jumpToTargetWebsite(item)">
                     <el-row>
                         <el-col :span="4" style="box-shadow: 0 0 0 0 red;" class="flex-vertical"><img :src="item.iconUrl" /></el-col>
