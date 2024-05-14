@@ -14,6 +14,9 @@ aside: false
 <!-- 前端页面开发 -->
 <NavigationItem v-bind="h5List" />
 
+<!-- 常用的工具 -->
+<NavigationItem v-bind="toolList" />
+
 <script lang="ts" setup>
 
 import {reactive} from 'vue'
@@ -36,6 +39,9 @@ import redisIcon from '/navigationImages/redis.svg'
 import nginxIcon from '/navigationImages/nginx.svg'
 import mvnrepositoryIcon from '/navigationImages/mvnrepository.svg'
 import mvnrepositoryaliIcon from '/navigationImages/mvnrepositoryaliIcon.svg'
+import gitIcon from '/navigationImages/git.svg'
+import githubIcon from '/navigationImages/github.svg'
+import giteeIcon from '/navigationImages/gitee.svg'
 
 // 导入图片 - 前端
 import qianduanIcon from '/navigationImages/qianduan.svg'
@@ -53,6 +59,14 @@ import animateIcon from '/navigationImages/animate.svg'
 import iconarchiveIcon from '/navigationImages/iconarchive.svg'
 import electronIcon from '/navigationImages/electron.svg'
 
+// 导入图片 - 工具网站
+import utoolsIcon from '/navigationImages/UTools.svg'
+import jsonIcon from '/navigationImages/json.svg'
+import timestampIcon from '/navigationImages/timestamp.svg'
+import stringhexIcon from '/navigationImages/stringhex.svg'
+
+
+
 // Java开发的网站导航
 const JavaList:NavigationItemObject = reactive({
     title:'Java开发',
@@ -67,6 +81,9 @@ const JavaList:NavigationItemObject = reactive({
         {nameStr:'Nginx 官网',iconUrl:nginxIcon,linkUrl:'https://nginx.org/'},
         {nameStr:'Maven 官方仓库',iconUrl:mvnrepositoryIcon,linkUrl:'https://mvnrepository.com/'},
         {nameStr:'Maven 阿里仓库',iconUrl:mvnrepositoryaliIcon,linkUrl:'https://developer.aliyun.com/mvn/guide'},
+        {nameStr:'Git 官网',iconUrl:gitIcon,linkUrl:'https://git-scm.com/'},
+        {nameStr:'GitHub',iconUrl:githubIcon,linkUrl:'https://github.com/'},
+        {nameStr:'Gitee 官网',iconUrl:giteeIcon,linkUrl:'https://gitee.com/'},
     ] 
 })
 
@@ -92,6 +109,21 @@ const h5List:NavigationItemObject = reactive({
     
     ]
 })
+
+// 常用工具的网站导航
+const toolList:NavigationItemObject = reactive({
+    title:'Tools',
+    desc:'这些工具网站就别再百度了，直接进去',
+    iconUrl:utoolsIcon,
+    itemList:[
+        {nameStr:'Json格式转换',iconUrl:jsonIcon,linkUrl:'https://www.json.cn/'},
+        {nameStr:'在线时间戳',iconUrl:timestampIcon,linkUrl:'https://tool.lu/timestamp/'},
+        {nameStr:'十六进制转字符串',iconUrl:stringhexIcon,linkUrl:'https://tool.hiofd.com/hex-convert-string-online/'},
+     
+    
+    ]
+})
+
 </script>
 
 <style module>
