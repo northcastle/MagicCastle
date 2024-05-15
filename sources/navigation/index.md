@@ -56,6 +56,7 @@ import iconfontIcon from '/navigationImages/iconfont.svg'
 import vueuseIcon from '/navigationImages/vueuse.svg'
 import colorspaceIcon from '/navigationImages/colorspace.svg'
 import animateIcon from '/navigationImages/animate.svg'
+import animategaspIcon from '/navigationImages/animategasp.svg'
 import iconarchiveIcon from '/navigationImages/iconarchive.svg'
 import electronIcon from '/navigationImages/electron.svg'
 
@@ -106,6 +107,7 @@ const h5List:NavigationItemObject = reactive({
         {nameStr:'VueUse',iconUrl:vueuseIcon,linkUrl:'https://vueuse.org/'},
         {nameStr:'Color Space',iconUrl:colorspaceIcon,linkUrl:'https://mycolor.space/'},
         {nameStr:'Animate Css',iconUrl:animateIcon,linkUrl:'https://animate.style/'},
+        {nameStr:'Animate GSAP',iconUrl:animategaspIcon,linkUrl:'https://gsap.com/'},
         {nameStr:'Icon Archive',iconUrl:iconarchiveIcon,linkUrl:'https://www.iconarchive.com/'},
         {nameStr:'Electron',iconUrl:electronIcon,linkUrl:'https://www.electronjs.org/'},
     
