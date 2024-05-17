@@ -16,6 +16,9 @@ aside: false
 <!-- 常用的工具 -->
 <NavigationItem v-bind="toolList" />
 
+<!-- 其他的上网 -->
+<NavigationItem v-bind="otherList" />
+
 <script lang="ts" setup>
 
 import {reactive} from 'vue'
@@ -61,13 +64,19 @@ import iconarchiveIcon from '/navigationImages/iconarchive.svg'
 import electronIcon from '/navigationImages/electron.svg'
 
 // 导入图片 - 工具网站
-import baiduIcon from '/navigationImages/baidu.svg'
-import fanyiIcon from '/navigationImages/fanyi.svg'
 import utoolsIcon from '/navigationImages/UTools.svg'
+
+import fanyiIcon from '/navigationImages/fanyi.svg'
 import jsonIcon from '/navigationImages/json.svg'
 import timestampIcon from '/navigationImages/timestamp.svg'
 import stringhexIcon from '/navigationImages/stringhex.svg'
 import asciiIcon from '/navigationImages/ascii.svg'
+
+// 导入图片 - 其他网站
+import otherIcon from '/navigationImages/other.svg'
+import baiduIcon from '/navigationImages/baidu.svg'
+import csdnIcon from '/navigationImages/csdn.svg'
+import bilibiliIcon from '/navigationImages/bilibili.svg'
 
 
 // Java开发的网站导航
@@ -122,7 +131,6 @@ const toolList:NavigationItemObject = reactive({
     desc:'这些工具网站就别犹豫了，直接点进去',
     iconUrl:utoolsIcon,
     itemList:[
-        {nameStr:'百度一下',iconUrl:baiduIcon,linkUrl:'https://www.baidu.com/'},
         {nameStr:'百度翻译',iconUrl:fanyiIcon,linkUrl:'https://fanyi.baidu.com/'},
         {nameStr:'Json格式转换',iconUrl:jsonIcon,linkUrl:'https://www.json.cn/'},
         {nameStr:'在线时间戳',iconUrl:timestampIcon,linkUrl:'https://tool.lu/timestamp/'},
@@ -130,6 +138,17 @@ const toolList:NavigationItemObject = reactive({
         {nameStr:'中文转Unicode',iconUrl:asciiIcon,linkUrl:'https://tool.ip138.com/ascii/'},
      
     
+    ]
+})
+
+const otherList:NavigationItemObject = reactive({
+    title:'其他',
+    desc:'什么，上面的网站还不够看的？',
+    iconUrl:otherIcon,
+    itemList:[
+        {nameStr:'百度一下',iconUrl:baiduIcon,linkUrl:'https://www.baidu.com/'},
+        {nameStr:'CSDN',iconUrl:csdnIcon,linkUrl:'https://www.csdn.net/'},
+        {nameStr:'Bilibili ~(￣▽￣)~*',iconUrl:bilibiliIcon,linkUrl:'https://www.bilibili.com/'},
     ]
 })
 
