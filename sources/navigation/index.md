@@ -61,11 +61,13 @@ import iconarchiveIcon from '/navigationImages/iconarchive.svg'
 import electronIcon from '/navigationImages/electron.svg'
 
 // 导入图片 - 工具网站
+import baiduIcon from '/navigationImages/baidu.svg'
+import fanyiIcon from '/navigationImages/fanyi.svg'
 import utoolsIcon from '/navigationImages/UTools.svg'
 import jsonIcon from '/navigationImages/json.svg'
 import timestampIcon from '/navigationImages/timestamp.svg'
 import stringhexIcon from '/navigationImages/stringhex.svg'
-
+import asciiIcon from '/navigationImages/ascii.svg'
 
 
 // Java开发的网站导航
@@ -117,12 +119,15 @@ const h5List:NavigationItemObject = reactive({
 // 常用工具的网站导航
 const toolList:NavigationItemObject = reactive({
     title:'Tools',
-    desc:'这些工具网站就别再百度了，直接进去',
+    desc:'这些工具网站就别犹豫了，直接点进去',
     iconUrl:utoolsIcon,
     itemList:[
+        {nameStr:'百度一下',iconUrl:baiduIcon,linkUrl:'https://www.baidu.com/'},
+        {nameStr:'百度翻译',iconUrl:fanyiIcon,linkUrl:'https://fanyi.baidu.com/'},
         {nameStr:'Json格式转换',iconUrl:jsonIcon,linkUrl:'https://www.json.cn/'},
         {nameStr:'在线时间戳',iconUrl:timestampIcon,linkUrl:'https://tool.lu/timestamp/'},
         {nameStr:'十六进制转字符串',iconUrl:stringhexIcon,linkUrl:'https://tool.hiofd.com/hex-convert-string-online/'},
+        {nameStr:'中文转Unicode',iconUrl:asciiIcon,linkUrl:'https://tool.ip138.com/ascii/'},
      
     
     ]
