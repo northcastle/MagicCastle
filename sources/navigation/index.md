@@ -66,6 +66,8 @@ import electronIcon from '/navigationImages/electron.svg'
 // 导入图片 - 工具网站
 import utoolsIcon from '/navigationImages/UTools.svg'
 
+import tongyiqianwenIcon from '/navigationImages/tongyiqianwen.svg'
+import wenxinyiyanIcon from '/navigationImages/wenxinyiyan.svg'
 import fanyiIcon from '/navigationImages/fanyi.svg'
 import jsonIcon from '/navigationImages/json.svg'
 import timestampIcon from '/navigationImages/timestamp.svg'
@@ -131,6 +133,8 @@ const toolList:NavigationItemObject = reactive({
     desc:'这些工具网站就别犹豫了，直接点进去',
     iconUrl:utoolsIcon,
     itemList:[
+        {nameStr:'通义千问',iconUrl:tongyiqianwenIcon,linkUrl:'https://tongyi.aliyun.com/qianwen'},
+        {nameStr:'文心一言',iconUrl:wenxinyiyanIcon,linkUrl:'https://yiyan.baidu.com/'},
         {nameStr:'百度翻译',iconUrl:fanyiIcon,linkUrl:'https://fanyi.baidu.com/'},
         {nameStr:'Json格式转换',iconUrl:jsonIcon,linkUrl:'https://www.json.cn/'},
         {nameStr:'在线时间戳',iconUrl:timestampIcon,linkUrl:'https://tool.lu/timestamp/'},
