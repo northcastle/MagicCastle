@@ -44,7 +44,7 @@ export default defineConfig({
 
      // 导航条的 社交链接
      socialLinks: [
-      // { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+      { icon: 'github', link: 'https://github.com/' }
     ],
 
     // 侧边栏
