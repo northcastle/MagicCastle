@@ -36,6 +36,8 @@ import guanwangIcon from '/navigationImages/guanwang.svg'
 import javaIcon from '/navigationImages/java.svg'
 import mavenIcon from '/navigationImages/maven.svg'
 import springIcon from '/navigationImages/spring.svg'
+import mybatisIcon from '/navigationImages/mybatis.svg'
+import mybatisplusIcon from '/navigationImages/mybatisplus.svg'
 import tomcatIcon from '/navigationImages/tomcat.svg'
 import redisIcon from '/navigationImages/redis.svg'
 import nginxIcon from '/navigationImages/nginx.svg'
@@ -73,6 +75,7 @@ import jsonIcon from '/navigationImages/json.svg'
 import timestampIcon from '/navigationImages/timestamp.svg'
 import stringhexIcon from '/navigationImages/stringhex.svg'
 import asciiIcon from '/navigationImages/ascii.svg'
+import base64Icon from '/navigationImages/base64.svg'
 import cronIcon from '/navigationImages/cron.svg'
 
 // 导入图片 - 其他网站
@@ -91,6 +94,8 @@ const JavaList:NavigationItemObject = reactive({
         {nameStr:'Java 官网',iconUrl:javaIcon,linkUrl:'https://www.oracle.com/cn/java/'},
         {nameStr:'Maven 官网',iconUrl:mavenIcon,linkUrl:'https://maven.apache.org/'},
         {nameStr:'Spring 官网',iconUrl:springIcon,linkUrl:'https://spring.io/'},
+        {nameStr:'MyBatis 官网',iconUrl:mybatisIcon,linkUrl:'https://mybatis.org/mybatis-3/zh_CN/index.html'},
+        {nameStr:'MyBatis Plus',iconUrl:mybatisplusIcon,linkUrl:'https://baomidou.com/'},
         {nameStr:'Tomcat 官网',iconUrl:tomcatIcon,linkUrl:'https://tomcat.apache.org/'},
         {nameStr:'Redis 官网',iconUrl:redisIcon,linkUrl:'https://redis.io/'},
         {nameStr:'Nginx 官网',iconUrl:nginxIcon,linkUrl:'https://nginx.org/'},
@@ -141,6 +146,7 @@ const toolList:NavigationItemObject = reactive({
         {nameStr:'在线时间戳',iconUrl:timestampIcon,linkUrl:'https://tool.lu/timestamp/'},
         {nameStr:'十六进制转字符串',iconUrl:stringhexIcon,linkUrl:'https://tool.hiofd.com/hex-convert-string-online/'},
         {nameStr:'中文转Unicode',iconUrl:asciiIcon,linkUrl:'https://tool.ip138.com/ascii/'},
+        {nameStr:'Base64 在线编码',iconUrl:base64Icon,linkUrl:'https://www.chahuo.com/base64-converter.html'},
         {nameStr:'Cron表达式在线',iconUrl:cronIcon,linkUrl:'https://cron.ciding.cc/'},
     
     ]
