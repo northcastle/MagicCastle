@@ -154,6 +154,7 @@ export default defineConfig({
         items:[
           {text:'序言',link:'/sources/poetry/'},
           {text:'芦叶满汀州',link:'/sources/poetry/luyemantingzhou'},
+          {text:'题淮南寺',link:'/sources/poetry/tihuainansi'},
         ]
       }
     ],
