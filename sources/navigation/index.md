@@ -46,6 +46,7 @@ import mvnrepositoryaliIcon from '/navigationImages/mvnrepositoryaliIcon.svg'
 import gitIcon from '/navigationImages/git.svg'
 import githubIcon from '/navigationImages/github.svg'
 import giteeIcon from '/navigationImages/gitee.svg'
+import tidbIcon from '/navigationImages/tidb.svg'
 
 // 导入图片 - 前端
 import qianduanIcon from '/navigationImages/qianduan.svg'
@@ -102,8 +103,9 @@ const JavaList:NavigationItemObject = reactive({
         {nameStr:'Maven 官方仓库',iconUrl:mvnrepositoryIcon,linkUrl:'https://mvnrepository.com/'},
         {nameStr:'Maven 阿里仓库',iconUrl:mvnrepositoryaliIcon,linkUrl:'https://developer.aliyun.com/mvn/guide'},
         {nameStr:'Git 官网',iconUrl:gitIcon,linkUrl:'https://git-scm.com/'},
-        {nameStr:'GitHub',iconUrl:githubIcon,linkUrl:'https://github.com/'},
+        // {nameStr:'GitHub',iconUrl:githubIcon,linkUrl:'https://github.com/'},
         {nameStr:'Gitee 官网',iconUrl:giteeIcon,linkUrl:'https://gitee.com/'},
+        {nameStr:'TiDB 官网',iconUrl:tidbIcon,linkUrl:'https://cn.pingcap.com/'},
     ] 
 })
 
