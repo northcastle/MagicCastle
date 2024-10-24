@@ -100,6 +100,8 @@ export default defineConfig({
                 {
                   text:'Git',
                   items:[
+                    {text:'基础操作',link:'/sources/java/shengtaitools/git/baseuse'},
+                    {text:'stash储藏',link:'/sources/java/shengtaitools/git/stashuse'},
                     {text:'取消版本管理',link:'/sources/java/shengtaitools/git/versioncontrol'}
                   ]
                 }
