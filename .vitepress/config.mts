@@ -103,6 +103,10 @@ export default defineConfig({
                     {text:'基础操作',link:'/sources/java/shengtaitools/git/baseuse'},
                     {text:'stash储藏',link:'/sources/java/shengtaitools/git/stashuse'},
                     {text:'branch分支',link:'/sources/java/shengtaitools/git/branchuse'},
+                    {text:'tag标签',link:'/sources/java/shengtaitools/git/taguse'},
+                    {text:'远程仓库',link:'/sources/java/shengtaitools/git/remoteuse'},
+                    {text:'忽略文件',link:'/sources/java/shengtaitools/git/ignorefile'},
+                    {text:'版本回退',link:'/sources/java/shengtaitools/git/versionrollback'},
                     {text:'取消版本管理',link:'/sources/java/shengtaitools/git/versioncontrol'}
                   ]
                 }
